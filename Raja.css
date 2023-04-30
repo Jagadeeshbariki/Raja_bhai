@@ -1,0 +1,192 @@
+.flex_container{
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient( to bottom right, pink, cyan,red);
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex_container div{
+    height: 8cm;
+    width: 5cm;
+    border-radius: 50%;
+}
+#pic1{
+   background-color: red;
+   background-image: url(raja1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#pic2{
+    background-color: red;
+   background-image: url(raja2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+#pic3{
+    background-color: red;
+   background-image: url(raja3.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+#pic4{
+    background-color: red;
+   background-image: url(raja4.jpeg);
+   background-size: 5cm 8cm;
+   background-repeat: no-repeat;
+    
+}
+#pic5{
+    background-color: red;
+   background-image: url(raja5.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+#pic6{
+    background-color: red;
+   background-image: url(raja6.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+body{
+    background-image: linear-gradient(to top right, rgb(79, 23, 209), rgb(255, 115, 0), rgb(64, 173, 64));
+    background-color: rgb(42, 183, 39);
+    
+}
+h1{
+    color: rgba(96, 255, 22, 0.963);
+}
+h2{
+    color: cyan;
+}
+#ani img{
+    width: 50%;
+    height: 25%;
+    border-radius: 100%;
+    background-color: lime;
+    animation: raja1 3s  infinite alternate-reverse;
+}
+h1{
+    
+    animation: raja 5s infinite alternate-reverse;
+}
+h2{
+    
+    animation: raja2 1s  2ms infinite alternate-reverse;
+}
+
+@keyframes raja{
+    0%{
+        /* color: brown; */
+        
+        opacity: 1;
+        text-shadow: 8px 1px 3px black;
+    }
+    25%{
+        /* color: cyan; */
+        opacity: 0.5;
+        text-shadow: 4px 1px 3px rgb(16, 16, 15);
+    }
+    50%{
+        color: red;
+        text-shadow: 0px 1px 3px black;
+
+    }
+    75%{
+        text-shadow: -4px 1px 3px black;
+    }
+    100%{
+        text-shadow: -8px 1px 3px black;
+    }
+}
+
+@keyframes raja1{
+    0%{
+        rotate: -15deg;
+        
+    }
+    25%{
+        rotate: 15deg;
+        
+    }
+    50%{
+        border-radius: 75%;
+    }
+}
+@keyframes raja2{
+    from{
+        color: rgb(240, 77, 13);
+        text-shadow: 3px 3px green;
+        background-color: yellow;
+    }
+    50%{
+        color: yellow;
+        text-shadow: 2px 2px blue;
+        background-color: red;
+    }
+    to{
+        color: rgb(228, 14, 164);
+        background-color: blue;
+    }
+}
+
+#wh{
+    background-color: greenyellow;
+}
+
+.frnds{
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    background-image: radial-gradient(red, green, blue);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.frnds div{
+    width: 5cm;
+    height: 4cm;
+    border-radius: 70%;
+   
+}
+
+#jaga{
+    background-color: khaki;
+    background-image: url(jaga.jpg);
+    background-size: 5cm 4cm;
+    background-repeat: no-repeat;
+}
+#mohan{
+    background-color: khaki;
+    background-image: url(mohan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#rag{
+    background-color: khaki;
+    background-image: url(rag.jpg);
+    background-size:  5cm 5cm;
+    background-repeat: no-repeat;
+}
+#har{
+    background-color: khaki;
+    background-image: url(hareesh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#g1{
+    background-color: khaki;
+    background-image: url(g1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#kiran{
+    background-color: khaki;
+    background-image: url(kiran.jpg);
+    background-size: 5cm 4cm;
+    background-repeat: no-repeat;
+}
